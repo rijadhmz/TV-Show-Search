@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+p {
+    color: #FBFBFB;
+    font-size: 1rem;
+}
+
+span {
+    color: #707070;
+}
+
+.startMargin {
+    margin-top: 10rem;
+}
+
+.afterMargin {
+    margin-top: 3rem;
+}
+
+#images div {
+    display: inline-block;
+    text-align: center;
+    margin: 0.5rem;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 1rem;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+#images div.loaded {
+    opacity: 1; 
+}
+
+#images p {
+    margin: 1.5rem auto auto auto;
+}
+
+#images img {
+    margin: 1rem auto 1rem auto;
+    display: block;
+    max-width: 200px;
+    border-radius: 10px;
+}
