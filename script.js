@@ -21,7 +21,6 @@ form.addEventListener('submit', async function (event) {
         }
         
         content.classList.add('afterMargin');
-        const searchTerm = form.elements.query.value;
         const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${searchTerm}`);
 
         clearImages();
