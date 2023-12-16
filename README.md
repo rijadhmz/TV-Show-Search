@@ -24,7 +24,7 @@ This project is developed using HTML, CSS with Bootstrap 5, and JavaScript. It u
 - HTML
 - CSS with Bootstrap 5
 - JavaScript
-- TVmaze API
+- [TVmaze API](https://www.tvmaze.com/api)
 
 ### Example
 
